@@ -5,9 +5,6 @@ because handwritten digits are not perfect, vary from person-to-person, and can 
 - The MNIST dataset for the implementation of a handwritten digit recognition app. To implement this we will use a special type of deep neural network called 
 Convolutional Neural Networks. 
 
-<img width="401" alt="demo hand" src="https://user-images.githubusercontent.com/101788326/186685358-537b01ba-9e06-4d90-96c8-22525227efad.png">
-
-
 # The MNIST dataset
 
 - Among thousands of datasets available in the market, MNIST is the most popular dataset for enthusiasts of machine learning and deep learning. Above 60,000 plus training images of handwritten digits from zero to nine and more than 10,000 images for testing are present in the MNIST dataset. So, 10 different classes are in the MNIST dataset. The images of handwritten digits are shown as a matrix of 28×28 where every cell consists of a grayscale pixel value.
@@ -21,3 +18,10 @@ The image data cannot be fed directly into the model so we need to perform some 
 - The model.fit() function of Keras will start the training of the model. It takes the training data, validation data, epochs, and batch size.
 
 ![hwal](https://user-images.githubusercontent.com/101788326/186682622-5554abed-289f-4ebc-8e5d-da88412dedfb.jpg)
+
+# Create GUI to predict digits
+To build an interactive window we have created a new file in GUI. In this file, we can draw digits on canvas, and by clicking a button, you can identify the digit. The  predict digit method takes the picture as input and then activates the trained model to predict the digit.
+
+After that to build the GUI for our app we have created the App class in Pycharm. In GUI canvas you can draw a digit by capturing the mouse event and with a button click, we hit the predict function and show the results.
+
+<img width="401" alt="demo hand" src="https://user-images.githubusercontent.com/101788326/186688741-cdaff2da-e001-45c8-b0da-f90e5ac495e8.png">
