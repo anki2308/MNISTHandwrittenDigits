@@ -5,7 +5,7 @@ because handwritten digits are not perfect, vary from person-to-person, and can 
 - The MNIST dataset for the implementation of a handwritten digit recognition app. To implement this we will use a special type of deep neural network called 
 Convolutional Neural Networks. 
 
-<img width="401" alt="demo hand" src="https://user-images.githubusercontent.com/101788326/186683766-131ab42f-0b6b-4572-beb0-84746705081f.png">
+<img width="401" alt="demo hand" src="https://user-images.githubusercontent.com/101788326/186685358-537b01ba-9e06-4d90-96c8-22525227efad.png">
 
 
 # The MNIST dataset
