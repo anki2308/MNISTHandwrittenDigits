@@ -4,8 +4,16 @@
 because handwritten digits are not perfect, vary from person-to-person, and can be made with many different flavors.
 - The MNIST dataset for the implementation of a handwritten digit recognition app. To implement this we will use a special type of deep neural network called 
 Convolutional Neural Networks. 
+
+<img width="401" alt="demo hand" src="https://user-images.githubusercontent.com/101788326/186683766-131ab42f-0b6b-4572-beb0-84746705081f.png">
+
+
 # The MNIST dataset
+
 - Among thousands of datasets available in the market, MNIST is the most popular dataset for enthusiasts of machine learning and deep learning. Above 60,000 plus training images of handwritten digits from zero to nine and more than 10,000 images for testing are present in the MNIST dataset. So, 10 different classes are in the MNIST dataset. The images of handwritten digits are shown as a matrix of 28×28 where every cell consists of a grayscale pixel value.
+
+![image](https://user-images.githubusercontent.com/101788326/186684077-e7a00d34-d5ea-48f4-896f-7f38aa464299.png)
+
 - Preprocess the data
 The image data cannot be fed directly into the model so we need to perform some operations and process the data to make it ready for our neural network. The dimension of the training data is (60000,28,28). The CNN model will require one more dimension so we reshape the matrix to shape (60000,28,28,1).
 # Model Building and Evaluation:
